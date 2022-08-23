@@ -1,9 +1,9 @@
 # Twitter-Bot
 *Motivation : Wanting to explore different APIs and see what I could build*
 # Tech Used:
--Python 3.8
--Python Libraries: Tweepy 4.10, Requests 2.28
--Opensource API's: Openweather API, Twitter API (Elevated access)
+- Python 3.8
+- Python Libraries: Tweepy 4.10, Requests 2.28
+- Opensource API's: Openweather API, Twitter API (Elevated access)
 
 # Setup
 1. Install the required Packages
