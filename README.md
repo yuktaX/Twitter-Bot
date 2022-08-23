@@ -1,11 +1,11 @@
 # Twitter-Bot
 *Motivation : Wanting to explore different APIs and see what I could build*
-###Tech Used:
+# Tech Used:
 -Python 3.8
 -Python Libraries: Tweepy 4.10, Requests 2.28
 -Opensource API's: Openweather API, Twitter API (Elevated access)
 
-### Setup
+# Setup
 1. Install the required Packages
 >pip install tweepy<
 >pip install requests<
@@ -18,7 +18,7 @@
 4. To use Openweather API, create an account and use the given API key. Store the key in >config.py like above.
 
 
-### Documentation
-###### What the bot does
+# Documentation
+### What the bot does
 This bot will give you the weather of a city that the user specifies.
 
