@@ -23,12 +23,22 @@ pip install requests
 ```
 @bot_name -(cityname)
 ```
-7. 
+7. Bot will reply to the tweet with a brief description of the weather
 
 # Documentation
 ### What the bot does
 This bot will give you the weather of a city that the user specifies. It follows a ***fixed syntax*** so adhereing to it will get you a reply from the bot or else it will be ignored.
 >Syntax: @bot_name -(cityname)
 ### How it works
+We are using 2 APIs here, Twitter and Openweather. 
+- Once we authenticate the Twitter API, we can send and recieve tweet requests and responses.
+- Fetch the mentions time line of the bot
+- Scan the tweet and get the city name
+- Using Weather API, send request for data and get response
+- Update user status ie reply to the tweet
+There is an overall communication between user, Twitter API and Openweather API through exchange of response and requests.
+
+### Code
+
 
 
