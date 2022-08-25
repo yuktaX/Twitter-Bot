@@ -35,7 +35,7 @@ We are using 2 APIs here, Twitter and Openweather.
 - Fetch the mentions time line of the bot
 - Scan the tweet and get the city name
 - Using Weather API, send request for data and get response
-- Update user status ie reply to the tweet
+- Update user_status i.e reply to the tweet
 There is an overall communication between user, Twitter API and Openweather API through exchange of response and requests.
 
 ### Code
