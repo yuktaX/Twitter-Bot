@@ -39,6 +39,11 @@ We are using 2 APIs here, Twitter and Openweather.
 There is an overall communication between user, Twitter API and Openweather API through exchange of response and requests.
 
 ### Code
+``` twt_bot.py```: This is the main code, it creates an api object through we fetch the tweets and use the weather API to get a description of the weather. It has a function ```execute``` which contains main body of the code and has to be run by user when they want to reply to new tweets. Detailed explanation in the comments of the code.
+
+```manage_tweets.py```: This contains the following functions:
+- add_id: to add a new tweets_id to a .txt file to make sure tweet isnt replied to again
+- has_replied: To check if tweet_id has already been replied to.
 
 
 
