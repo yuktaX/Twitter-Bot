@@ -44,6 +44,7 @@ There is an overall communication between user, Twitter API and Openweather API 
 ```manage_tweets.py```: This contains the following functions:
 - add_id: to add a new tweets_id to a .txt file to make sure tweet isnt replied to again
 - has_replied: To check if tweet_id has already been replied to.
+
 ```latest.txt```: text file containing all the ids of tweets already replied to
 
 
